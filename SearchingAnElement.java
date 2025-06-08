@@ -11,7 +11,7 @@ public class SearchingAnElement {
         key = sc.nextInt();
         for(int i=0;i<ar.length;i++){
             if(ar[i] == key){
-                System.out.println("The is found at " + i+1 );
+                System.out.println("The is found at the position " + (i+1));
                 System.exit(0);
             }
 
