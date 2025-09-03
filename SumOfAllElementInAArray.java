@@ -5,7 +5,7 @@ public class SumOfAllElementInAArray {
         int[] ar = {3,9,7,8,12,6,15,5,4,10};
         int sum = 0;
         for(int i =0;i<ar.length;i++){
-            sum = sum+ ar[i];
+            sum+=ar[i];
         }
         System.out.println("The sum of the number is " + sum);
     }
